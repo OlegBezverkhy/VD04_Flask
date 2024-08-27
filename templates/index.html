@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Журнал блогов пса Ларса</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="icon" href="../static/image/favicon.png" type="image/png">
+    <!-- Подключение Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="text-white py-3 mb-4">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="h3">Блог немецкой овчарки по клике Ларс</h1>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="/">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="/about/">О нас</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="/contacts/">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="container">
+        <div class="row">
+            <!-- Список блогов -->
+            <div class="col-lg-8">
+                <!-- Блог 1 -->
+                <article class="mb-4">
+                    <div class="card">
+                        <img src="../static/image/blog1.jpg" class="card-img-top" alt="Изображение блога">
+                        <div class="card-body">
+                            <h3 class="card-title">Знакомство: Это я - немецкая овчарка Ларс</h3>
+                            <p class="card-text">Приветствую вас, друзья!
+                                Меня зовут Ларс, и я — немецкая овчарка. В этом блоге я расскажу вам о своей жизни,
+                                поделюсь мыслями о мире и расскажу о моих приключениях. Жизнь собаки полна ярких
+                                событий, и мне не терпится поделиться своими историями!</p>
+                            <a href="/blog1/" class="btn btn-primary">Читать далее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Блог 2 -->
+                <article class="mb-4">
+                    <div class="card">
+                        <img src="../static/image/blog2.jpg" class="card-img-top" alt="Изображение блога">
+                        <div class="card-body">
+                            <h2 class="card-title">Моя жизнь: Игры и забавы</h2>
+                            <p class="card-text">"Я, Ларс, черная длинношерстная немецкая овчарка, обожаю играть!
+                                Каждый день для меня — это новое приключение, полное радости и веселья. Позвольте рассказать вам о моих любимых играх</p>
+                            <a href="/blog2/" class="btn btn-primary">Читать далее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Блог 3 -->
+                <article class="mb-4">
+                    <div class="card">
+                        <img src="../static/image/blog3.jpg" class="card-img-top" alt="Изображение блога">
+                        <div class="card-body">
+                            <h2 class="card-title">Первый снег: Мои впечатления</h2>
+                            <p class="card-text">Сегодня я хочу рассказать вам об одном из самых волнующих моментов в моей жизни — моем первом знакомстве со снегом. Это был невероятный день, который я запомню навсегда!</p>
+                            <a href="/blog3/" class="btn btn-primary">Читать далее</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Боковая панель -->
+            <aside class="col-lg-4">
+                <!-- Фотография автора -->
+                <div class="text-white mb-4 text-center">
+                    <img src="../static/image/Iam.jpg" class="rounded-circle img-fluid" alt="Фото автора">
+                    <h5 class="mt-3">Ларс</h5>
+                        <h6>(По родословной: Тим-Лихтенштейн-Ост-Лондон)</h6>
+                    <p>Автор блога</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="text-white py-4 mt-4">
+        <div class="container text-center">
+            <p>Контактная информация: mail@mail.com</p>
+            <p>
+                <a href="#" class="text-white me-2">ВКонтакте</a>
+                <a href="#" class="text-white me-2">Одноклассники</a>
+                <a href="#" class="text-white">Телеграм</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Подключение Bootstrap JS и Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
