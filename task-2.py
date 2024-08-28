@@ -28,11 +28,11 @@ def blog2():
 
 @app.route("/blog3/")
 def blog3():
-    context = {'b_text': bt.blogs['blog2'],
-              'b_title': bt.title['blog2'],
-              'b_date': bt.blog_date['blog2'],
-              'b_author': bt.author['blog2'],
-              'b_href': bt.href['blog2']}
+    context = {'b_text': bt.blogs['blog3'],
+              'b_title': bt.title['blog3'],
+              'b_date': bt.blog_date['blog3'],
+              'b_author': bt.author['blog3'],
+              'b_href': bt.href['blog3']}
     return render_template("blog.html", context=context)
 
 @app.route("/about/")
